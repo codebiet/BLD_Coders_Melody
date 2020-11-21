@@ -1,0 +1,51 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 80px;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.card{
+       
+       border: 0px;
+     }
+     .footer{
+       text-align: center;
+     }
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #9575CD;
+  color: floralwhite; }
+
+
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
+
+.navbar-dark {
+  background-color: #512DA8; }
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
+
+
+
+.modal .modal-header {
+  background-color: #512DA8;
+  color: #fffaf0; }
+
+.modal .modal-body {
+  background-color: #D1C4E9; }
+
+.modal .close {
+  color: #fffaf0; }
