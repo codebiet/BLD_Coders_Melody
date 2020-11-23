@@ -17,3 +17,70 @@
      .footer{
        text-align: center;
      }
+ 
+      body{
+        background-color: pink;
+      }
+      .flex{
+        display: flex;
+        flex-direction: row;
+      }
+      .flex li {
+              margin: 2px 20px;
+              color: black;
+      }
+      .flex li a{
+              
+              color: black;
+      }
+     .btn{
+      font-weight: bold;
+          border-radius:30px;
+     }
+     .btn:hover{
+          color: crimson;
+          background-color: white;
+          font-weight: bold;
+          border: 2px solid red;
+     }
+     tr:hover{
+            background-color: white;
+            transition:1s;
+     }
+     .card{
+       background-color: rgb(233, 232, 232);
+       border: 0px;
+     }
+     .card-text a{
+      color:rgb(119, 117, 117);
+      text-decoration: none;
+     }
+     .card-text a:hover{
+      color:black;
+      text-decoration: none;
+     }
+     .footer{
+       text-align: center;
+     }
+
+
+     .music{
+       background-color: white;
+       display: flex;  
+       flex-direction: row;
+       border: 1px solid black;
+       position: fixed; 
+            padding: 0px 10px 0px 10px; 
+            bottom: 0; 
+            width: 100%;
+     }
+     .music .media{
+      border: 1px solid black;
+       height: 65px;
+      
+     }
+     button{
+       margin-bottom:0px;
+      
+     }
+  
