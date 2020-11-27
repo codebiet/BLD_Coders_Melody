@@ -14,41 +14,10 @@
   </head>
   <body>
    <!-- it's a navbar -->
-
-   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#" style="color:red;">Melody</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+ <?php
+    include("includes/header.php");
+    ?>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-
-        <li class="nav-item active">
-          <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="browse.html">Browse</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="discover.html">Discover </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Radio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="ganna.html" tabindex="-1" aria-disabled="true">my music</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <button type="button" class="btn btn-outline-danger mr-md-5 ml-md-5">Sign up</button> 
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-
 
 
     <!-- main container -->
@@ -346,150 +315,10 @@
 
 
 <!-- it's a footer section -->
-<div class="container footer my-5">
-<div class="card-deck">
 
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Album</h5>
-      <p class="card-text">
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        <a href="#">English</a> |
-        
-       
-        </p>
-    </div>   
-  </div>
-
-
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Artists</h5>
-      <p class="card-text">
-        <a href="#">Arijit singh</a> |   
-        <a href="#">Arijit singh</a> |
-        <a href="#">Arijit singh</a> |
-        <a href="#">Arijit singh</a> |
-        <a href="#">Arijit singh</a> |
-        <a href="#">Arijit singh</a> |
-        <a href="#">Arijit singh</a> |
-        <a href="#">Arijit singh</a> |
-        <a href="#">Arijit singh</a> |
-        <a href="#">Arijit singh</a> |
-        <a href="#">Arijit singh</a> |
-        <a href="#">Arijit singh</a> |
-        <a href="#">Arijit singh</a> |
-        <a href="#">Arijit singh</a> |
-
-        </p>
-    </div>   
-  </div>
-
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Generics</h5>
-      <p class="card-text">
-        <a href="#">Bollywood songs</a> |
-        <a href="#">Bollywood songs</a> |
-        <a href="#">Bollywood songs</a> |
-        <a href="#">Bollywood songs</a> |
-        <a href="#">Bollywood songs</a> |
-        <a href="#">Bollywood songs</a> |
-        <a href="#">Bollywood songs</a> |
-        <a href="#">Bollywood songs</a> |
-        <a href="#">Bollywood songs</a> |
-        <a href="#">Bollywood songs</a> |
-        <a href="#">Bollywood songs</a> |
-        <a href="#">Bollywood songs</a> |
-
-        </p>
-    </div>   
-  </div>
-</div>
-<div class="card-deck">
-
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">New releases</h5>
-      <p class="card-text">
-        <a href="#">English songs</a> |
-        <a href="#">English songs</a> |
-        <a href="#">English songs</a> |
-        <a href="#">English songs</a> |
-        <a href="#">English songs</a> |
-        <a href="#">English songs</a> |
-        <a href="#">English songs</a> |
-        <a href="#">English songs</a> |
-        <a href="#">English songs</a> |
-        <a href="#">English songs</a> |
-
-        </p>
-    </div>   
-  </div>
-
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Treding songs</h5>
-      <p class="card-text">
-        <a href="#">Hanuman chalisa</a> |
-        <a href="#">Hanuman chalisa</a> |
-        <a href="#">Hanuman chalisa</a> |
-        <a href="#">Hanuman chalisa</a> |
-        <a href="#">Hanuman chalisa</a> |
-        <a href="#">Hanuman chalisa</a> |
-        <a href="#">Hanuman chalisa</a> |
-        <a href="#">Hanuman chalisa</a> |
-        <a href="#">Hanuman chalisa</a> |
-        <a href="#">Hanuman chalisa</a> |
-
-    </div>   
-  </div>
-
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Treadings Album</h5>
-      <p class="card-text">
-        <a href="#">Happy Birthday</a> |
-        <a href="#">Happy Birthday</a> |
-        <a href="#">Happy Birthday</a> |
-        <a href="#">Happy Birthday</a> |
-        <a href="#">Happy Birthday</a> |
-        <a href="#">Happy Birthday</a> |
-        <a href="#">Happy Birthday</a> |
-        <a href="#">Happy Birthday</a> |
-        <a href="#">Happy Birthday</a> |
-        <a href="#">Happy Birthday</a> |
-
-    </div>   
-  </div>
-</div>
-<hr>
-<div>
-  <p>
-    Advertise on ganna.com  | Terms of use  |    Privacy Police  | Feedback    |  Report on issue   |  Partners   |   Sitemaps |   FAQ
-  </p>
-  <p>Gamma Ganna Ltd. 2020 | All right reserved</p>
-</div>
-</div>
-
-
+<?php
+    include("includes/footer.php");
+    ?>
 
   <!-- Optional JavaScript; choose one of the two! -->
  
@@ -497,12 +326,6 @@
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-  <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-  -->
 
   </body>
 </html>
